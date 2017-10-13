@@ -8,11 +8,11 @@ image_resource:
     tag: "8"
 
 inputs:
-- name: apps-movie-fun-code
+- name: moviefun-service-source
 
 outputs:
 - name: package-output
 
 run:
-  path: apps-movie-fun-code/ci/tasks/package.sh
+  path: moviefun-service-source/ci/tasks/package.sh
 
