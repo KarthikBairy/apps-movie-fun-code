@@ -23,7 +23,7 @@ jobs:
   - get: moviefun-service-source
     trigger: true
   - task: test
-    file: apps-movie-fun-code/ci/tasks/test.yml
+    file: moviefun-service-source/ci/tasks/test.yml
 
 - name: deploy
   public: true
